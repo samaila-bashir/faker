@@ -46,6 +46,7 @@ node_modules/
 
 # dotenv environment variable files
 .env
+temp_auto_push.bat
 .env.development.local
 .env.test.local
 .env.production.local
@@ -59,7 +60,6 @@ node_modules/
 .docusaurus
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # IDE
 /.idea
@@ -95,3 +95,5 @@ yarn.lock
 
 cypress/screenshots
 cypress/videos
+.gitignore
+branch_structure.json
