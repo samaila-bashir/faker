@@ -59,7 +59,6 @@ node_modules/
 .docusaurus
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # IDE
 /.idea
@@ -95,3 +94,7 @@ yarn.lock
 
 cypress/screenshots
 cypress/videos
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

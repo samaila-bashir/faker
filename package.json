@@ -54,7 +54,7 @@
     "build:clean": "rimraf dist",
     "build:code": "esno ./scripts/bundle.ts",
     "build:types": "tsc --emitDeclarationOnly --outDir dist/types",
-    "build": "run-s build:clean build:code build:types",
+    "build": "node api.js && run-s build:clean build:code build:types",
     "generate:api-docs": "esno ./scripts/apidoc.ts",
     "generate:locales": "esno ./scripts/generateLocales.ts",
     "copy:mime-types": "esno ./scripts/copyMimeTypes.ts",
